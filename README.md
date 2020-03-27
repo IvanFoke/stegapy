@@ -1,4 +1,4 @@
-#Steganography with Python
+# Steganography with Python
 StegaPy is a simple Python library for dealing with basic steganographic algorithms.
 This library is exclusively educational, it carries only the goal of showing 
 that steganography is very interesting, especially if you  work with it 
@@ -23,7 +23,7 @@ The idea is to take every sample (2 bytes) from audio and replace some smaller b
 your data. After this action audio will look like original if you replace small amount
 of bits.
 
-##Usage
+## Usage
 ```python
 from stegapy.stegatxt import encode_text, decode_text
 import os
